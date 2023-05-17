@@ -1,0 +1,279 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  /* width: 135px; */
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 0.3rem;
+  /* display: block; */
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.upper {
+  text-transform: uppercase;
+}
+.capital {
+  text-transform: capitalize;
+}
+
+a {
+  color: #5d6975;
+  text-decoration: underline;
+}
+
+#print {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  color: black;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+}
+
+#logo {
+  width: 132px;
+  height: 200px;
+  margin-bottom: 10px;
+  /* border: 3px solid #cbb8b1; */
+  text-align: center;
+  float: right;
+  margin-right: auto;
+}
+.divpagebreak {
+  width: 132px;
+  height: 50px;
+  /*border:3px solid red;*/
+}
+
+#logo h3 {
+  text-align: center;
+}
+
+h1 {
+  color: #5d6975;
+  font-size: 2.4em;
+  line-height: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+#project {
+  float: left;
+  max-width: 70%;
+}
+
+#project span {
+  color: black;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline;
+  font-size: 0.8em;
+}
+
+#company {
+  margin-left: 32px;
+  margin-right: 32px;
+  text-align: left;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;
+}
+
+.table1 table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  table-layout: fixed;
+}
+
+.table1 table tr:nth-child(2n-1) td {
+  background: #cbb8b1;
+}
+
+.table1 table th,
+.table1 table td {
+  text-align: center;
+}
+
+.table1 table th {
+  padding: 5px 20px;
+  color: black;
+  border-bottom: 1px solid #c1ced9;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+.table1 table .service,
+table .desc {
+  text-align: left;
+}
+
+.table1 table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table1 table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+.table1 table td.unit,
+.table1 table td.qty,
+.table1 table td.total {
+  font-size: 1.2em;
+}
+
+.table1 table td.grand {
+  border-top: 1px solid #5d6975;
+}
+
+#notices .notice {
+  color: black;
+  font-size: 1.2em;
+}
+
+footer {
+  color: black;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #c1ced9;
+  padding: 8px 0;
+  text-align: center;
+}
+.qualification table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+.qualification th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.qualification td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.office {
+  border: 1px solid black;
+}
+.office h2,
+h4 {
+  text-align: center;
+}
+.office p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 0 11px;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.desc {
+  font-weight: bold;
+  padding-right: 10px;
+}
+.container-c {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  margin: 5px;
+}
+.address {
+  display: inline-block;
+  margin: 5px;
+}
+.project {
+  display: inline-block;
+  margin: 5px;
+}
+.page_break {
+  page-break-before: always;
+}
+.cname {
+  text-align: center;
+}
+
+.table1 td {
+  width: 25%;
+  word-wrap: break-word;
+}
+.table1 th {
+  width: 25%;
+}
+.qualification td {
+  width: 12%;
+  word-wrap: break-word;
+}
+.qualification th {
+  width: 12%;
+}
+
+.qualification table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  table-layout: fixed;
+}
+p {
+  text-align: justify;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+#identity {
+  width: 193px;
+  height: 50px;
+  margin-bottom: 10px;
+  border: 3px solid #cbb8b1;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.userProfileImage {
+  width: 150px;
+  height: 150px;
+  object-fit: scale-down;
+}
